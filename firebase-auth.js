@@ -1,4 +1,4 @@
-import { initializeApp, getApps } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { initializeApp, getApps } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-app.js";
 import {
   getAuth,
   setPersistence,
@@ -11,14 +11,14 @@ import {
   signOut,
   updateProfile,
   signInAnonymously
-} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+} from "https://www.gstatic.com/firebasejs/12.9.0/firebase-auth.js";
 import {
   getDatabase,
   ref,
   get,
   set,
   update
-} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+} from "https://www.gstatic.com/firebasejs/12.9.0/firebase-database.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDfZPIg6Nif_Mx_Wwyl0byM6vJCd5BLgo8",
